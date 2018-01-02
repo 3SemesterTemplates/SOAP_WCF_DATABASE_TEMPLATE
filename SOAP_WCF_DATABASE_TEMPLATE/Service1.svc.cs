@@ -69,6 +69,7 @@ namespace SOAP_WCF_DATABASE_TEMPLATE
             throw new NotImplementedException();
         }
 
+
         private static Movie ReadStudent(IDataRecord reader)
         {
             int id = reader.GetInt32(0);
